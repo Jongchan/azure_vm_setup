@@ -1,3 +1,4 @@
+sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
 sudo apt-get purge cuda
 sudo apt-get purge libcudnn6
 sudo apt-get purge libcudnn6-dev
